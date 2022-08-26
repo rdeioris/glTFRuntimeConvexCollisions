@@ -10,7 +10,12 @@ You can use this plugin as a base for adding more runtime features to your Stati
 
 Once the plugin is enabled you will get a Data Asset called 'glTFRuntimeConvexCollisionConfig'. Just create one in the Content Browser from the Miscellaneous/Data Asset menu:
 
+![Screenshot0](Screenshot0.PNG?raw=true "Screenshot0")
+
 This asset defines the Convex Collision generation policy (basically the same stuff you have in the standard Editor)
 
+![Screenshot1](Screenshot1.PNG?raw=true "Screenshot1")
 
 Now to enable Convex Collision generation just edit your StaticMeshConfig structure setting its outer to the StaticMeshComponent (something you generally do for Complex collisions) and adding the glTFRuntimeConvexCollisionConfig asset to the list of 'Custom Config Objects'
+
+![Screenshot2](Screenshot2.PNG?raw=true "Screenshot2")
