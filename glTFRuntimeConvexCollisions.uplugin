@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "glTFRuntimeConvexCollisions",
+  "Description": "Automatically generate Convex Collisions for StaticMeshes",
+  "Category": "Other",
+  "CreatedBy": "Roberto De Ioris",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "glTFRuntimeConvexCollisions",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "glTFRuntime",
+      "Enabled": true
+    }
+  ]
+}
