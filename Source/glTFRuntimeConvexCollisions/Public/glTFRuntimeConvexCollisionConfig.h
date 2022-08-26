@@ -27,7 +27,7 @@ class GLTFRUNTIMECONVEXCOLLISIONS_API UglTFRuntimeConvexCollisionConfig : public
 	
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "glTFRuntimeConvexCollisions")
-	bool bAutoConvexCollision = false;
+	bool bAutoConvexCollision = true;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "glTFRuntimeConvexCollisions")
 	bool bConvexCollisionsAsyncGeneration = false;
