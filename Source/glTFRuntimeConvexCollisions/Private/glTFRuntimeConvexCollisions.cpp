@@ -43,8 +43,6 @@ namespace
 			Points[VertexIndex * 3 + 2] = Position.Z;
 		}
 
-		UE_LOG(LogTemp, Error, TEXT("Index initialized: %d"), RenderData->LODResources[0].IndexBuffer.IsInitialized());
-
 		TArray<uint32> Indices;
 		RenderData->LODResources[0].IndexBuffer.GetCopy(Indices);
 
