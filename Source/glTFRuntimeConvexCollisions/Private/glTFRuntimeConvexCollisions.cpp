@@ -1,9 +1,13 @@
 // Copyright 2020-2022, Roberto De Ioris.
 
 #include "glTFRuntimeConvexCollisions.h"
+
+
+THIRD_PARTY_INCLUDES_START
 #define ENABLE_VHACD_IMPLEMENTATION 1
 #define VHACD_DISABLE_THREADING 1
 #include "VHACD/VHACD.h"
+THIRD_PARTY_INCLUDES_END
 
 #include "glTFRuntimeParser.h"
 #include "glTFRuntimeConvexCollisionConfig.h"
