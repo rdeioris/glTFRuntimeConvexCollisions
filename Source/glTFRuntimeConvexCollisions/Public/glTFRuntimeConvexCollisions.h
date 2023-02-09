@@ -12,4 +12,6 @@ public:
 	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
+
+	GLTFRUNTIMECONVEXCOLLISIONS_API static void BuildConvexCollisions(class UStaticMesh* StaticMesh, class UglTFRuntimeConvexCollisionConfig* Config);
 };

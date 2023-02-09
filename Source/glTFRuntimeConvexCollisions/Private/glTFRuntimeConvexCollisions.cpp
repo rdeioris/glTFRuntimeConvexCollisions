@@ -100,6 +100,13 @@ namespace
 	}
 }
 
+void FglTFRuntimeConvexCollisionsModule::BuildConvexCollisions(UStaticMesh* StaticMesh, UglTFRuntimeConvexCollisionConfig* Config)
+{
+	TArray<FKConvexElem> ConvexElements;
+	GenerateConvexCollision(StaticMesh, Config, ConvexElements);
+	UpdateBodySetup(StaticMesh, ConvexElements);
+}
+
 void FglTFRuntimeConvexCollisionsModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
