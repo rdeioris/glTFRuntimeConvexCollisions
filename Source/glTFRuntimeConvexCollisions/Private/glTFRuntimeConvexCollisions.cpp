@@ -11,6 +11,8 @@ THIRD_PARTY_INCLUDES_END
 
 #include "glTFRuntimeParser.h"
 #include "glTFRuntimeConvexCollisionConfig.h"
+#include "PhysicsEngine/ConvexElem.h"
+#include "PhysicsEngine/BodySetup.h"
 
 #define LOCTEXT_NAMESPACE "FglTFRuntimeConvexCollisionsModule"
 
